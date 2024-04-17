@@ -5,7 +5,7 @@
   become_user: root
   vars:
     allowed_ssh_networks:
-      - 192.168.56.124/24
+      - 192.168.56.124//24
 
     unnecessary_services:
       - postfix
